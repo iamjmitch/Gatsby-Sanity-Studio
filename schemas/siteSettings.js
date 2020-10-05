@@ -9,10 +9,17 @@ export default {
       title: 'Site Name',
       type: 'string',
     },
+
     {
       name: 'siteSubtitle',
       title: 'Site Subtitle',
       type: 'string',
+    },
+    {
+      name: 'text',
+
+      type: 'richText',
+      title: 'Rich Text',
     },
   ],
 };
